@@ -31,12 +31,20 @@ public abstract class TitleScreenMixin {
         long hours = seconds / 3600;
         long minutes = (seconds % 3600) / 60;
 
-        graphics.drawString(
-                font,
-                "Total Playtime: " + hours + "h " + minutes + "m",
-                5,
-                this.font.lineHeight + 5,
-                0xFFFFFF
-        );
+       graphics.drawString(
+        font,
+        "Playtime Tracker",
+        5,
+        5,
+        0xFFFFFF
+);
+
+graphics.drawString(
+        font,
+        hours + "h " + minutes + "m",
+        5,
+        5 + font.lineHeight + 2,
+        0xAAAAAA
+);
     }
 }
