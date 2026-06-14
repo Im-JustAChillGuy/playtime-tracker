@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "playtimetracker",
-  "version": "1.0.0",
+  "version": "${version}",
   "name": "Playtime Tracker",
   "description": "A Lightweight Mod that tracks your Minecraft Playtime",
   "authors": [
@@ -23,7 +23,7 @@
   },
 
   "mixins": [
-    "playtimetracker.mixins.json"
+    "modid.client.mixins.json"
   ],
 
   "depends": {
