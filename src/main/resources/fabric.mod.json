@@ -1,35 +1,35 @@
 {
-	"schemaVersion": 1,
-	"id": "playtimetracker",
-	"version": "1.0.0",
-	"name": "Playtime Tracker",
-	"description": "A Lightweight Mod that tracks your Minecraft Playtime",
-	"authors": [
-		"JustAChillGuy"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
-	 "environment": "client",
+  "schemaVersion": 1,
+  "id": "playtimetracker",
+  "version": "1.0.0",
+  "name": "Playtime Tracker",
+  "description": "A Lightweight Mod that tracks your Minecraft Playtime",
+  "authors": [
+    "JustAChillGuy"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/playtimetracker/icon.png",
+
+  "environment": "client",
+
   "entrypoints": {
     "client": [
       "com.example.playtimetracker.PlaytimeTrackerClient"
     ]
   },
-	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
-	],
-	"depends": {
-		"fabricloader": ">=0.19.2",
-		"minecraft": ">=26.1",
-		"java": ">=25",
-		"fabric-api": "*"
-	}
+
+  "mixins": [
+    "playtimetracker.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
 }
