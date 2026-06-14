@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
-	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"id": "playtimetracker",
+	"version": "1.0.0",
+	"name": "Playtime Tracker",
+	"description": "A Lightweight Mod that tracks your Minecraft Playtime",
 	"authors": [
-		"Me!"
+		"JustAChillGuy"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -30,8 +30,8 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.1.2",
+		"fabricloader": ">=0.19.2",
+		"minecraft": ">=26.1",
 		"java": ">=25",
 		"fabric-api": "*"
 	}
